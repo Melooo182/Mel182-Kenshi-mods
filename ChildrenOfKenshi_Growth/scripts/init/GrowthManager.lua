@@ -146,6 +146,12 @@
 --   Character:setRace re-derives limb max health from the new race (a child at 80 became the
 --   adult race's 100 at the swap), so at maturity the swap sets limb health by itself, a
 --   race-mismatch abort leaves limbs alone, and statRevert is not needed for limbs.
+--   TESTED (save/reload): numeric stats persist, but limb _maxHealth does NOT: it reverts to
+--   the race base on load while flesh keeps its saved value. Limbs therefore use an absolute
+--   baseline (fdata["GrowthLimbBase_<limb>"]) re-asserted every pass, see ScaleLimbs. The limb
+--   ramp only lasts while the character is growing: at maturity the swap sets the adult
+--   value; a race with swapOnMaturity = false would lose its limb bonus on the next reload,
+--   so leave `limbs` out of statEnd for such a race.
 --
 -- * SLIDER KEYS: fdata keys must match the game's keys exactly (case-sensitive).
 --   A wrong key silently writes an unused value. TagCharacterEstimated /
@@ -155,6 +161,7 @@
 --
 -- * Not applied yet: the maturity dialogue.
 
+-- This method of calling the config will cause conflict with Steam workshop's way of handling mods folders
 local growthConfig = dofile("mods/ChildrenOfKenshi_Growth/scripts/config/growth_config.lua")
 
 -- Per race entry in growth_config.lua (adultRaceName / adultRaceID already exist):
@@ -383,17 +390,42 @@ local StatGroups = {
                  "blunt", "heavyWeapons", "unarmed", "bows", "turrets", "polearms" },
 }
 
-local function ScaleLimbs(Character, ratio)
+-- Limbs use an ABSOLUTE baseline, not a ratio. The game does NOT save _maxHealth: after a
+-- save/reload it reverts to the race's base value while `flesh` keeps its saved (scaled)
+-- value (seen in the logs: _maxHealth=80, flesh=88.5). So every call sets
+--   _maxHealth = base * newM
+-- from a baseline stored in fdata, and keeps the limb's health FRACTION relative to the
+-- previously intended maximum (base * lastM), never to the possibly reset live value.
+-- Calling it again with the same multiplier is a no-op that repairs a reset _maxHealth.
+local function ScaleLimbs(Character, fdata, lastM, newM, clearBase)
   local Anatomy = Character.medical.anatomy
   for k, limb in pairs(Anatomy) do
+    local baseKey = "GrowthLimbBase_" .. tostring(k)
+    local base = fdata[baseKey]
     local maxH = limb._maxHealth
-    if maxH and maxH > 0 then
-      local fleshRatio = limb.flesh / maxH
-      limb._maxHealth = maxH * ratio
-      limb.flesh = limb._maxHealth * fleshRatio
+    if base == nil and maxH and maxH > 0 then
+      -- first sight: the live max is the unscaled race value (lastM is 1.0 on a fresh tag)
+      base = (lastM > 0) and (maxH / lastM) or maxH
+      fdata[baseKey] = base
     end
+    if base and base > 0 then
+      local prevMax = base * lastM
+      local fraction = (prevMax > 0) and (limb.flesh / prevMax) or 1.0
+      local newMax = base * newM
+      limb._maxHealth = newMax
+      limb.flesh = fraction * newMax
+    end
+    if clearBase then fdata[baseKey] = nil end
   end
   Character.medical.anatomy = Anatomy
+end
+
+local function ClearLimbBase(Character, fdata)
+  pcall(function()
+    for k, _ in pairs(Character.medical.anatomy) do
+      fdata["GrowthLimbBase_" .. tostring(k)] = nil
+    end
+  end)
 end
 
 local WarnedStat = {}
@@ -439,16 +471,19 @@ local function ApplyStatScale(Character, cfg, t, finish, skip)
     local newM = LerpFloat(1.0, endMult, t)
     if finish and revert[group] then newM = 1.0 end
 
-    if skip and skip[group] then
-      newM = lastM
-    end
-
-    if lastM > 0 and newM > 0 and math.abs(newM - lastM) > 0.0001 then
-      local ratio = newM / lastM
-      if group == "limbs" then
-        ScaleLimbs(Character, ratio)
-      else
-        ScaleStatGroup(Character, group, ratio)
+    if group == "limbs" then
+      -- absolute and re-asserted on every call, so it repairs itself after a reload
+      if skip and skip[group] then
+        ClearLimbBase(Character, fdata)   -- race changed: leave the limbs alone
+      elseif lastM > 0 and newM > 0 then
+        ScaleLimbs(Character, fdata, lastM, newM, finish)
+      end
+    else
+      if skip and skip[group] then
+        newM = lastM
+      end
+      if lastM > 0 and newM > 0 and math.abs(newM - lastM) > 0.0001 then
+        ScaleStatGroup(Character, group, newM / lastM)
       end
     end
 
@@ -456,6 +491,15 @@ local function ApplyStatScale(Character, cfg, t, finish, skip)
   end
 
   AppDataBase.updatedAppearanceData = true
+end
+
+-- Between daily recalculations, put a reset _maxHealth back (see ScaleLimbs). Cheap:
+-- changes nothing when the value is already right.
+local function ReassertLimbs(Character, fdata)
+  local m = fdata["GrowthMult_limbs"]
+  if m and m > 0 then
+    ScaleLimbs(Character, fdata, m, m, false)
+  end
 end
 
 local function TagCharacterEstimated(Character, currentDay, quiet)
@@ -690,7 +734,10 @@ local function GrowCharacter(Character)
   local CurrentTime = GetCurrentTime()
   local DayFloor = math.floor(CurrentTime)
   local NearEnd = (CurrentTime - BirthDay) >= (effectiveDays * 0.98) -- Changed from 0.95 since it gave too many ticks on last day
-  if not NearEnd and fdata.GrowthLastCheckedDay == DayFloor then return true end
+  if not NearEnd and fdata.GrowthLastCheckedDay == DayFloor then
+    ReassertLimbs(Character, fdata)
+    return true
+  end
   fdata.GrowthLastCheckedDay = DayFloor
 
   local Elapsed = CurrentTime - BirthDay
