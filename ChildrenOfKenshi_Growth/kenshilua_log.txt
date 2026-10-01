@@ -1,0 +1,512 @@
+2026-10-01 11:23:16.605 [LOG] [GrowthManager]   Legs shape = 100
+2026-10-01 11:23:16.607 [LOG] [GrowthManager]   Chin width = 100
+2026-10-01 11:23:16.608 [LOG] [GrowthManager]   Breast spacing = 100
+2026-10-01 11:23:16.610 [LOG] [GrowthManager]   bone_big_eyes = 1
+2026-10-01 11:23:16.612 [LOG] [GrowthManager]   GrowthStart_Shoulders = 83.886093139648
+2026-10-01 11:23:16.613 [LOG] [GrowthManager]   Arm bulk = 80.002532958984
+2026-10-01 11:23:16.615 [LOG] [GrowthManager]   GrowthTarget_Arm bulk = 104.45481872559
+2026-10-01 11:23:16.617 [LOG] [GrowthManager]   Shoulders = 85.001502990723
+2026-10-01 11:23:16.618 [LOG] [GrowthManager]   bone_wide_jaw = 0
+2026-10-01 11:23:16.620 [LOG] [GrowthManager]   Jaw = 100
+2026-10-01 11:23:16.621 [LOG] [GrowthManager]   bone_close_eyes = -0.19999998807907
+2026-10-01 11:23:16.623 [LOG] [GrowthManager]   bone_wide_nose = 0.34999999403954
+2026-10-01 11:23:16.625 [LOG] [GrowthManager]   Breast size = 40.002983093262
+2026-10-01 11:23:16.626 [LOG] [GrowthManager]   Hands = 93.000846862793
+2026-10-01 11:23:16.627 [LOG] [GrowthManager]   bone_horns_thin = 0
+2026-10-01 11:23:16.629 [LOG] [GrowthManager]   Hair Saturation = 0
+2026-10-01 11:23:16.630 [LOG] [GrowthManager]   Feet = 95.000534057617
+2026-10-01 11:23:16.633 [LOG] [GrowthManager]   Breast height = 119.99919128418
+2026-10-01 11:23:16.635 [LOG] [GrowthManager]   GrowthStart_Waist = 46.039859771729
+2026-10-01 11:23:16.636 [LOG] [GrowthManager]   GrowthTarget_Neck length = 85.335456848145
+2026-10-01 11:23:16.638 [LOG] [GrowthManager]   Neck = 75.005149841309
+2026-10-01 11:23:16.638 [LOG] [GrowthManager]   Head shape = 100
+2026-10-01 11:23:16.640 [LOG] [GrowthManager]   GrowthStart_Chest = 79.667671203613
+2026-10-01 11:23:16.641 [LOG] [GrowthManager]   Mouth width = 100
+2026-10-01 11:23:16.643 [LOG] [GrowthManager]   Neck position = 43
+2026-10-01 11:23:16.645 [LOG] [GrowthManager]   bone_horns_bottom_short = 0.84996652603149
+2026-10-01 11:23:16.647 [LOG] [GrowthManager]   bone_horns_curved = 0.049999997019768
+2026-10-01 11:23:16.648 [LOG] [GrowthManager]   Lips = 100
+2026-10-01 11:23:16.650 [LOG] [GrowthManager]   GrowthMult_athletics = 1.0064371824265
+2026-10-01 11:23:16.651 [LOG] [GrowthManager]   GrowthStart_Neck length = 69.773147583008
+2026-10-01 11:23:16.653 [LOG] [GrowthManager]   Eye shape = 100
+2026-10-01 11:23:16.654 [LOG] [GrowthManager]   Eye spacing = 100
+2026-10-01 11:23:16.656 [LOG] [GrowthManager]   Eye height = 100
+2026-10-01 11:23:16.658 [LOG] [GrowthManager]   Brow = 100
+2026-10-01 11:23:16.660 [LOG] [GrowthManager]   Nose width = 100
+2026-10-01 11:23:16.661 [LOG] [GrowthManager]   GrowthStart_Hands = 92.372245788574
+2026-10-01 11:23:16.663 [LOG] [GrowthManager]   Nose depth = 100
+2026-10-01 11:23:16.665 [LOG] [GrowthManager]   Nose tip = 100
+2026-10-01 11:23:16.667 [LOG] [GrowthManager]   Chin = 100
+2026-10-01 11:23:16.668 [LOG] [GrowthManager]   bone_narrow_eyes = 0
+2026-10-01 11:23:16.670 [LOG] [GrowthManager]   Chin protrusion = 100
+2026-10-01 11:23:16.671 [LOG] [GrowthManager]   Neck width = 70.006439208984
+2026-10-01 11:23:16.673 [LOG] [GrowthManager]   bone_high_nose = -0.029999999329448
+2026-10-01 11:23:16.675 [LOG] [GrowthManager]   Posture = 20
+2026-10-01 11:23:16.676 [LOG] [GrowthManager]   Shoulder set = 68
+2026-10-01 11:23:16.678 [LOG] [GrowthManager]   Hair Colour = 0
+2026-10-01 11:23:16.680 [LOG] [GrowthManager]   GrowthTarget_Breast height = 112.20933532715
+2026-10-01 11:23:16.682 [LOG] [GrowthManager]   Leg length = 99.999961853027
+2026-10-01 11:23:16.683 [LOG] [GrowthManager]   Height = 85.000877380371
+2026-10-01 11:23:16.685 [LOG] [GrowthManager]   bone_underbite = 0
+2026-10-01 11:23:16.687 [LOG] [GrowthManager]   Frame = 83.001708984375
+2026-10-01 11:23:16.688 [LOG] [GrowthManager]   bone_tiltup_eyes = 0
+2026-10-01 11:23:16.690 [LOG] [GrowthManager]   GrowthStart_Breast size = 38.865345001221
+2026-10-01 11:23:16.692 [LOG] [GrowthManager]   bone_tiltdown_nose = 0.25
+2026-10-01 11:23:16.694 [LOG] [GrowthManager]   Hair Brightness = 100
+2026-10-01 11:23:16.696 [LOG] [GrowthManager]   bone_long_nose = 0.39999997615814
+2026-10-01 11:23:16.697 [LOG] [GrowthManager]   bone_wide_cheekbones = 0
+2026-10-01 11:23:16.699 [LOG] [GrowthManager]   bone_wide_cheeks = 0.25
+2026-10-01 11:23:16.700 [LOG] [GrowthManager]   bone_big_mouth = 0.099999994039536
+2026-10-01 11:23:16.702 [LOG] [GrowthManager]   bone_low_brows = 0
+2026-10-01 11:23:16.704 [LOG] [GrowthManager]   bone_arch_nose = 0.029999999329448
+2026-10-01 11:23:16.705 [LOG] [GrowthManager]   bone_tiltup_nose = 0
+2026-10-01 11:23:16.707 [LOG] [GrowthManager]   GrowthLastCheckedDay = 1
+2026-10-01 11:23:16.709 [LOG] [GrowthManager]   GrowthStart_bone_horns_top_short = 0.87572574615479
+2026-10-01 11:23:16.710 [LOG] [GrowthManager]   bone_tiltup_brow = 0
+2026-10-01 11:23:16.712 [LOG] [GrowthManager]   GrowthStart_Neck = 71.023857116699
+2026-10-01 11:23:16.714 [LOG] [GrowthManager]   bone_high_brows = 0
+2026-10-01 11:23:16.715 [LOG] [GrowthManager]   bone_tiltdown_brow = 0
+2026-10-01 11:23:16.717 [LOG] [GrowthManager]   GrowthStart_Hips = 77.566925048828
+2026-10-01 11:23:16.719 [LOG] [GrowthManager]   bone_shallow_eyes = 0
+2026-10-01 11:23:16.720 [LOG] [GrowthManager]   GrowthTarget_Frame = 99.480781555176
+2026-10-01 11:23:16.722 [LOG] [GrowthManager]   bone_tiltdown_eyes = 0
+2026-10-01 11:23:16.724 [LOG] [GrowthManager]   bone_narrow_jaw = 0.75
+2026-10-01 11:23:16.726 [LOG] [GrowthManager]   GrowthTarget_Shoulders = 99.480781555176
+2026-10-01 11:23:16.727 [LOG] [GrowthManager]   bone_inward_chin = 0.25
+2026-10-01 11:23:16.729 [LOG] [GrowthManager]   bone_overbite = 0.25
+2026-10-01 11:23:16.731 [LOG] [GrowthManager]   bone_down_chin = 0
+2026-10-01 11:23:16.733 [LOG] [GrowthManager]   GrowthTarget_Height = 107.68859863281
+2026-10-01 11:23:16.735 [LOG] [GrowthManager]   bone_wide_chin = -0.25
+2026-10-01 11:23:16.737 [LOG] [GrowthManager]   GrowthTarget_bone_horns_bottom_short = 0.52684605121613
+2026-10-01 11:23:16.739 [LOG] [GrowthManager]   bone_up_chin = 0.25
+2026-10-01 11:23:16.741 [LOG] [GrowthManager]   bone_horns_body_short = 0.74997681379318
+2026-10-01 11:23:31.648 [LOG] LogViewer: Saved copy of the log to: E:\Games\KENSHI\Kenshi\mods\ChildrenOfKenshi_Growth\kenshilua_log.txt
+2026-10-01 11:33:31.232 [LOG] [GrowthManager] stats of Plop (1535099-ChildrenOfKenshi.mod)
+2026-10-01 11:33:31.234 [LOG] [GrowthManager]   stats.strength = 5.0141005516052
+2026-10-01 11:33:31.236 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:33:31.238 [LOG] [GrowthManager]   stats.athletics = 1.3029366731644
+2026-10-01 11:33:31.241 [LOG] [GrowthManager]   stats.swimming = 1.9620693922043
+2026-10-01 11:33:31.243 [LOG] [GrowthManager]   stats.dexterity = 0.23841913044453
+2026-10-01 11:33:31.245 [LOG] [GrowthManager]   stats.perception = 3.4560821056366
+2026-10-01 11:33:31.248 [LOG] [GrowthManager]   stats.meleeAttack = 3.1591186523438
+2026-10-01 11:33:31.250 [LOG] [GrowthManager]   stats.katanas = 1.8116455078125
+2026-10-01 11:33:31.252 [LOG] [GrowthManager]   limb 1: _maxHealth=84.647590637207 flesh=84.647590637207
+2026-10-01 11:33:31.254 [LOG] [GrowthManager]   limb 2: _maxHealth=84.647590637207 flesh=84.647590637207
+2026-10-01 11:33:31.256 [LOG] [GrowthManager]   limb 3: _maxHealth=84.647590637207 flesh=84.647590637207
+2026-10-01 11:33:31.259 [LOG] [GrowthManager]   limb 4: _maxHealth=84.647590637207 flesh=84.647590637207
+2026-10-01 11:33:31.261 [LOG] [GrowthManager]   limb 5: _maxHealth=84.647590637207 flesh=84.647590637207
+2026-10-01 11:33:31.263 [LOG] [GrowthManager]   limb 6: _maxHealth=84.647590637207 flesh=84.647590637207
+2026-10-01 11:33:31.265 [LOG] [GrowthManager]   limb 7: _maxHealth=84.647590637207 flesh=84.647590637207
+2026-10-01 11:33:37.573 [LOG] [GrowthManager] stats of Cardinal (1535459-ChildrenOfKenshi.mod)
+2026-10-01 11:33:37.575 [LOG] [GrowthManager]   stats.strength = 4.794780254364
+2026-10-01 11:33:37.577 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:33:37.580 [LOG] [GrowthManager]   stats.athletics = 5.2074780464172
+2026-10-01 11:33:37.582 [LOG] [GrowthManager]   stats.swimming = 1.1268646717072
+2026-10-01 11:33:37.584 [LOG] [GrowthManager]   stats.dexterity = 5.3520922660828
+2026-10-01 11:33:37.586 [LOG] [GrowthManager]   stats.perception = 4.7085328102112
+2026-10-01 11:33:37.588 [LOG] [GrowthManager]   stats.meleeAttack = 2.8679809570312
+2026-10-01 11:33:37.590 [LOG] [GrowthManager]   stats.katanas = 0.12908935546875
+2026-10-01 11:33:37.592 [LOG] [GrowthManager]   limb 1: _maxHealth=81.937156677246 flesh=81.937156677246
+2026-10-01 11:33:37.594 [LOG] [GrowthManager]   limb 2: _maxHealth=81.937156677246 flesh=81.937156677246
+2026-10-01 11:33:37.596 [LOG] [GrowthManager]   limb 3: _maxHealth=81.937156677246 flesh=81.937156677246
+2026-10-01 11:33:37.598 [LOG] [GrowthManager]   limb 4: _maxHealth=81.937156677246 flesh=81.937156677246
+2026-10-01 11:33:37.600 [LOG] [GrowthManager]   limb 5: _maxHealth=81.937156677246 flesh=81.937156677246
+2026-10-01 11:33:37.602 [LOG] [GrowthManager]   limb 6: _maxHealth=81.937156677246 flesh=81.937156677246
+2026-10-01 11:33:37.604 [LOG] [GrowthManager]   limb 7: _maxHealth=81.937156677246 flesh=81.937156677246
+2026-10-01 11:33:41.778 [LOG] [GrowthManager] stats of Bandisno (1535457-ChildrenOfKenshi.mod)
+2026-10-01 11:33:41.780 [LOG] [GrowthManager]   stats.strength = 4.9835906028748
+2026-10-01 11:33:41.783 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:33:41.786 [LOG] [GrowthManager]   stats.athletics = 2.7144823074341
+2026-10-01 11:33:41.788 [LOG] [GrowthManager]   stats.swimming = 5.4844336509705
+2026-10-01 11:33:41.790 [LOG] [GrowthManager]   stats.dexterity = 0.49830177426338
+2026-10-01 11:33:41.792 [LOG] [GrowthManager]   stats.perception = 3.5070331096649
+2026-10-01 11:33:41.794 [LOG] [GrowthManager]   stats.meleeAttack = 2.9635620117188
+2026-10-01 11:33:41.797 [LOG] [GrowthManager]   stats.katanas = 0.111328125
+2026-10-01 11:33:41.799 [LOG] [GrowthManager]   limb 1: _maxHealth=101.7857131958 flesh=101.7857131958
+2026-10-01 11:33:41.801 [LOG] [GrowthManager]   limb 2: _maxHealth=101.7857131958 flesh=101.7857131958
+2026-10-01 11:33:41.803 [LOG] [GrowthManager]   limb 3: _maxHealth=101.7857131958 flesh=101.7857131958
+2026-10-01 11:33:41.806 [LOG] [GrowthManager]   limb 4: _maxHealth=101.7857131958 flesh=101.7857131958
+2026-10-01 11:33:41.808 [LOG] [GrowthManager]   limb 5: _maxHealth=101.7857131958 flesh=101.7857131958
+2026-10-01 11:33:41.810 [LOG] [GrowthManager]   limb 6: _maxHealth=101.7857131958 flesh=101.7857131958
+2026-10-01 11:33:41.813 [LOG] [GrowthManager]   limb 7: _maxHealth=101.7857131958 flesh=101.7857131958
+2026-10-01 11:33:52.942 [LOG] LogViewer: Saved copy of the log to: E:\Games\KENSHI\Kenshi\mods\ChildrenOfKenshi_Growth\kenshilua_log.txt
+2026-10-01 11:37:15.968 [LOG] [GrowthManager] Plop day=2.00 t=0.427 H=87.2 dur=3.0
+2026-10-01 11:37:15.972 [LOG] [GrowthManager] Cardinal day=2.00 t=0.291 H=83.1 dur=3.0
+2026-10-01 11:37:15.974 [LOG] [GrowthManager] Bandisno day=2.00 t=0.266 H=88.7 dur=3.0
+2026-10-01 11:38:02.004 [LOG] [GrowthManager] stats of Plop (1535099-ChildrenOfKenshi.mod)
+2026-10-01 11:38:02.006 [LOG] [GrowthManager]   stats.strength = 5.0999913215637
+2026-10-01 11:38:02.009 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:38:02.011 [LOG] [GrowthManager]   stats.athletics = 1.5127005577087
+2026-10-01 11:38:02.013 [LOG] [GrowthManager]   stats.swimming = 1.9956792593002
+2026-10-01 11:38:02.015 [LOG] [GrowthManager]   stats.dexterity = 0.23416051268578
+2026-10-01 11:38:02.018 [LOG] [GrowthManager]   stats.perception = 3.3943498134613
+2026-10-01 11:38:02.020 [LOG] [GrowthManager]   stats.meleeAttack = 3.1591186523438
+2026-10-01 11:38:02.022 [LOG] [GrowthManager]   stats.katanas = 1.8116455078125
+2026-10-01 11:38:02.025 [LOG] [GrowthManager]   limb 1: _maxHealth=88.533760070801 flesh=88.533760070801
+2026-10-01 11:38:02.028 [LOG] [GrowthManager]   limb 2: _maxHealth=88.533760070801 flesh=88.533760070801
+2026-10-01 11:38:02.031 [LOG] [GrowthManager]   limb 3: _maxHealth=88.533760070801 flesh=88.533760070801
+2026-10-01 11:38:02.033 [LOG] [GrowthManager]   limb 4: _maxHealth=88.533760070801 flesh=88.533760070801
+2026-10-01 11:38:02.035 [LOG] [GrowthManager]   limb 5: _maxHealth=88.533760070801 flesh=88.533760070801
+2026-10-01 11:38:02.038 [LOG] [GrowthManager]   limb 6: _maxHealth=88.533760070801 flesh=88.533760070801
+2026-10-01 11:38:02.040 [LOG] [GrowthManager]   limb 7: _maxHealth=88.533760070801 flesh=88.533760070801
+2026-10-01 11:38:05.896 [LOG] [GrowthManager] stats of Cardinal (1535459-ChildrenOfKenshi.mod)
+2026-10-01 11:38:05.898 [LOG] [GrowthManager]   stats.strength = 4.8779067993164
+2026-10-01 11:38:05.901 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:38:05.903 [LOG] [GrowthManager]   stats.athletics = 5.4904322624207
+2026-10-01 11:38:05.905 [LOG] [GrowthManager]   stats.swimming = 1.1464009284973
+2026-10-01 11:38:05.908 [LOG] [GrowthManager]   stats.dexterity = 5.2576699256897
+2026-10-01 11:38:05.911 [LOG] [GrowthManager]   stats.perception = 4.6254644393921
+2026-10-01 11:38:05.913 [LOG] [GrowthManager]   stats.meleeAttack = 2.8679809570312
+2026-10-01 11:38:05.916 [LOG] [GrowthManager]   stats.katanas = 0.12908935546875
+2026-10-01 11:38:05.918 [LOG] [GrowthManager]   limb 1: _maxHealth=85.823333740234 flesh=85.823333740234
+2026-10-01 11:38:05.921 [LOG] [GrowthManager]   limb 2: _maxHealth=85.823333740234 flesh=85.823333740234
+2026-10-01 11:38:05.923 [LOG] [GrowthManager]   limb 3: _maxHealth=85.823333740234 flesh=85.823333740234
+2026-10-01 11:38:05.926 [LOG] [GrowthManager]   limb 4: _maxHealth=85.823333740234 flesh=85.823333740234
+2026-10-01 11:38:05.928 [LOG] [GrowthManager]   limb 5: _maxHealth=85.823333740234 flesh=85.823333740234
+2026-10-01 11:38:05.931 [LOG] [GrowthManager]   limb 6: _maxHealth=85.823333740234 flesh=85.823333740234
+2026-10-01 11:38:05.933 [LOG] [GrowthManager]   limb 7: _maxHealth=85.823333740234 flesh=85.823333740234
+2026-10-01 11:38:09.220 [LOG] [GrowthManager] stats of Bandisno (1535457-ChildrenOfKenshi.mod)
+2026-10-01 11:38:09.222 [LOG] [GrowthManager]   stats.strength = 5.0701870918274
+2026-10-01 11:38:09.225 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:38:09.227 [LOG] [GrowthManager]   stats.athletics = 2.9399182796478
+2026-10-01 11:38:09.231 [LOG] [GrowthManager]   stats.swimming = 5.5797333717346
+2026-10-01 11:38:09.233 [LOG] [GrowthManager]   stats.dexterity = 0.48953092098236
+2026-10-01 11:38:09.236 [LOG] [GrowthManager]   stats.perception = 3.4453041553497
+2026-10-01 11:38:09.238 [LOG] [GrowthManager]   stats.meleeAttack = 2.9635620117188
+2026-10-01 11:38:09.241 [LOG] [GrowthManager]   stats.katanas = 0.111328125
+2026-10-01 11:38:09.243 [LOG] [GrowthManager]   limb 1: _maxHealth=106.64342498779 flesh=106.64342498779
+2026-10-01 11:38:09.246 [LOG] [GrowthManager]   limb 2: _maxHealth=106.64342498779 flesh=106.64342498779
+2026-10-01 11:38:09.248 [LOG] [GrowthManager]   limb 3: _maxHealth=106.64342498779 flesh=106.64342498779
+2026-10-01 11:38:09.251 [LOG] [GrowthManager]   limb 4: _maxHealth=106.64342498779 flesh=106.64342498779
+2026-10-01 11:38:09.254 [LOG] [GrowthManager]   limb 5: _maxHealth=106.64342498779 flesh=106.64342498779
+2026-10-01 11:38:09.256 [LOG] [GrowthManager]   limb 6: _maxHealth=106.64342498779 flesh=106.64342498779
+2026-10-01 11:38:09.259 [LOG] [GrowthManager]   limb 7: _maxHealth=106.64342498779 flesh=106.64342498779
+2026-10-01 11:38:26.169 [ERROR] Lua console error: [string "<console>"]:1: function arguments expected near 'and'
+2026-10-01 11:40:17.377 [LOG] [GrowthManager] stats of Plop (1535099-ChildrenOfKenshi.mod)
+2026-10-01 11:40:17.379 [LOG] [GrowthManager]   stats.strength = 5.0999913215637
+2026-10-01 11:40:17.382 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:40:17.385 [LOG] [GrowthManager]   stats.athletics = 1.5127005577087
+2026-10-01 11:40:17.388 [LOG] [GrowthManager]   stats.swimming = 1.9956792593002
+2026-10-01 11:40:17.391 [LOG] [GrowthManager]   stats.dexterity = 0.23416051268578
+2026-10-01 11:40:17.394 [LOG] [GrowthManager]   stats.perception = 3.3943498134613
+2026-10-01 11:40:17.397 [LOG] [GrowthManager]   stats.meleeAttack = 3.1591186523438
+2026-10-01 11:40:17.399 [LOG] [GrowthManager]   stats.katanas = 1.8116455078125
+2026-10-01 11:40:17.402 [LOG] [GrowthManager]   limb 1: _maxHealth=80 flesh=88.533760070801
+2026-10-01 11:40:17.405 [LOG] [GrowthManager]   limb 2: _maxHealth=80 flesh=88.533760070801
+2026-10-01 11:40:17.407 [LOG] [GrowthManager]   limb 3: _maxHealth=80 flesh=88.533760070801
+2026-10-01 11:40:17.410 [LOG] [GrowthManager]   limb 4: _maxHealth=80 flesh=88.533760070801
+2026-10-01 11:40:17.413 [LOG] [GrowthManager]   limb 5: _maxHealth=80 flesh=88.533760070801
+2026-10-01 11:40:17.416 [LOG] [GrowthManager]   limb 6: _maxHealth=80 flesh=88.533760070801
+2026-10-01 11:40:17.418 [LOG] [GrowthManager]   limb 7: _maxHealth=80 flesh=88.533760070801
+2026-10-01 11:40:21.495 [LOG] [GrowthManager] stats of Cardinal (1535459-ChildrenOfKenshi.mod)
+2026-10-01 11:40:21.498 [LOG] [GrowthManager]   stats.strength = 4.8779067993164
+2026-10-01 11:40:21.500 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:40:21.503 [LOG] [GrowthManager]   stats.athletics = 5.4904322624207
+2026-10-01 11:40:21.506 [LOG] [GrowthManager]   stats.swimming = 1.1464009284973
+2026-10-01 11:40:21.509 [LOG] [GrowthManager]   stats.dexterity = 5.2576699256897
+2026-10-01 11:40:21.512 [LOG] [GrowthManager]   stats.perception = 4.6254644393921
+2026-10-01 11:40:21.515 [LOG] [GrowthManager]   stats.meleeAttack = 2.8679809570312
+2026-10-01 11:40:21.517 [LOG] [GrowthManager]   stats.katanas = 0.12908935546875
+2026-10-01 11:40:21.520 [LOG] [GrowthManager]   limb 1: _maxHealth=80 flesh=85.823333740234
+2026-10-01 11:40:21.522 [LOG] [GrowthManager]   limb 2: _maxHealth=80 flesh=85.823333740234
+2026-10-01 11:40:21.525 [LOG] [GrowthManager]   limb 3: _maxHealth=80 flesh=85.823333740234
+2026-10-01 11:40:21.528 [LOG] [GrowthManager]   limb 4: _maxHealth=80 flesh=85.823333740234
+2026-10-01 11:40:21.531 [LOG] [GrowthManager]   limb 5: _maxHealth=80 flesh=85.823333740234
+2026-10-01 11:40:21.534 [LOG] [GrowthManager]   limb 6: _maxHealth=80 flesh=85.823333740234
+2026-10-01 11:40:21.536 [LOG] [GrowthManager]   limb 7: _maxHealth=80 flesh=85.823333740234
+2026-10-01 11:40:25.451 [LOG] [GrowthManager] stats of Bandisno (1535457-ChildrenOfKenshi.mod)
+2026-10-01 11:40:25.454 [LOG] [GrowthManager]   stats.strength = 5.0701870918274
+2026-10-01 11:40:25.456 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:40:25.459 [LOG] [GrowthManager]   stats.athletics = 2.9399182796478
+2026-10-01 11:40:25.462 [LOG] [GrowthManager]   stats.swimming = 5.5797333717346
+2026-10-01 11:40:25.465 [LOG] [GrowthManager]   stats.dexterity = 0.48953092098236
+2026-10-01 11:40:25.468 [LOG] [GrowthManager]   stats.perception = 3.4453041553497
+2026-10-01 11:40:25.470 [LOG] [GrowthManager]   stats.meleeAttack = 2.9635620117188
+2026-10-01 11:40:25.473 [LOG] [GrowthManager]   stats.katanas = 0.111328125
+2026-10-01 11:40:25.476 [LOG] [GrowthManager]   limb 1: _maxHealth=100 flesh=106.64342498779
+2026-10-01 11:40:25.479 [LOG] [GrowthManager]   limb 2: _maxHealth=100 flesh=106.64342498779
+2026-10-01 11:40:25.482 [LOG] [GrowthManager]   limb 3: _maxHealth=100 flesh=106.64342498779
+2026-10-01 11:40:25.485 [LOG] [GrowthManager]   limb 4: _maxHealth=100 flesh=106.64342498779
+2026-10-01 11:40:25.488 [LOG] [GrowthManager]   limb 5: _maxHealth=100 flesh=106.64342498779
+2026-10-01 11:40:25.490 [LOG] [GrowthManager]   limb 6: _maxHealth=100 flesh=106.64342498779
+2026-10-01 11:40:25.493 [LOG] [GrowthManager]   limb 7: _maxHealth=100 flesh=106.64342498779
+2026-10-01 11:40:32.213 [LOG] LogViewer: Saved copy of the log to: E:\Games\KENSHI\Kenshi\mods\ChildrenOfKenshi_Growth\kenshilua_log.txt
+2026-10-01 11:42:04.218 [LOG] [GrowthManager] Plop day=3.01 t=0.763 H=94.8 dur=3.0
+2026-10-01 11:42:04.221 [LOG] [GrowthManager] Cardinal day=3.01 t=0.628 H=91.6 dur=3.0
+2026-10-01 11:42:04.224 [LOG] [GrowthManager] Bandisno day=3.01 t=0.602 H=99.7 dur=3.0
+2026-10-01 11:43:07.358 [LOG] [GrowthManager] Plop day=3.57 t=0.951 H=97.0 dur=3.0
+2026-10-01 11:43:09.168 [LOG] [GrowthManager] Plop day=3.59 t=0.957 H=97.0 dur=3.0
+2026-10-01 11:43:10.881 [LOG] [GrowthManager] Plop day=3.60 t=0.962 H=97.0 dur=3.0
+2026-10-01 11:43:12.462 [LOG] [GrowthManager] Plop day=3.62 t=0.966 H=97.1 dur=3.0
+2026-10-01 11:43:13.976 [LOG] [GrowthManager] Plop day=3.63 t=0.971 H=97.1 dur=3.0
+2026-10-01 11:43:15.545 [LOG] [GrowthManager] Plop day=3.65 t=0.976 H=97.1 dur=3.0
+2026-10-01 11:43:17.106 [LOG] [GrowthManager] Plop day=3.66 t=0.980 H=97.1 dur=3.0
+2026-10-01 11:43:18.607 [LOG] [GrowthManager] Plop day=3.67 t=0.985 H=97.1 dur=3.0
+2026-10-01 11:43:20.200 [LOG] [GrowthManager] Plop day=3.69 t=0.990 H=97.1 dur=3.0
+2026-10-01 11:43:22.075 [LOG] [GrowthManager] Plop day=3.71 t=0.995 H=97.1 dur=3.0
+2026-10-01 11:43:23.995 [LOG] [GrowthManager] Plop day=3.72 t=1.000 H=97.1 dur=3.0
+2026-10-01 11:43:23.998 [LOG] [GrowthManager] Plop matured
+2026-10-01 11:43:24.001 [LOG] [GrowthManager] Plop swapped to 17-gamedata.quack (setRace=true, listRewrite=true, head 5007788-ChildrenOfKenshi.mod -> 26-ChildrenOfKenshi_Growth.mod)
+2026-10-01 11:43:53.075 [LOG] [GrowthManager] Cardinal day=3.99 t=0.953 H=97.0 dur=3.0
+2026-10-01 11:43:54.816 [LOG] [GrowthManager] Cardinal day=4.00 t=0.958 H=97.0 dur=3.0
+2026-10-01 11:43:54.819 [LOG] [GrowthManager] Bandisno day=4.00 t=0.933 H=107.4 dur=3.0
+2026-10-01 11:43:56.508 [LOG] [GrowthManager] Cardinal day=4.02 t=0.963 H=97.0 dur=3.0
+2026-10-01 11:43:58.183 [LOG] [GrowthManager] Cardinal day=4.03 t=0.969 H=97.0 dur=3.0
+2026-10-01 11:43:59.987 [LOG] [GrowthManager] Cardinal day=4.05 t=0.974 H=97.0 dur=3.0
+2026-10-01 11:44:01.851 [LOG] [GrowthManager] Cardinal day=4.07 t=0.980 H=97.1 dur=3.0
+2026-10-01 11:44:01.854 [LOG] [GrowthManager] Bandisno day=4.07 t=0.954 H=107.5 dur=3.0
+2026-10-01 11:44:03.731 [LOG] [GrowthManager] Cardinal day=4.08 t=0.985 H=97.1 dur=3.0
+2026-10-01 11:44:03.734 [LOG] [GrowthManager] Bandisno day=4.08 t=0.960 H=107.6 dur=3.0
+2026-10-01 11:44:05.486 [LOG] [GrowthManager] Cardinal day=4.10 t=0.990 H=97.1 dur=3.0
+2026-10-01 11:44:05.490 [LOG] [GrowthManager] Bandisno day=4.10 t=0.965 H=107.6 dur=3.0
+2026-10-01 11:44:07.352 [LOG] [GrowthManager] Cardinal day=4.11 t=0.996 H=97.1 dur=3.0
+2026-10-01 11:44:07.355 [LOG] [GrowthManager] Bandisno day=4.11 t=0.970 H=107.6 dur=3.0
+2026-10-01 11:44:09.219 [LOG] [GrowthManager] Cardinal day=4.13 t=1.000 H=97.1 dur=3.0
+2026-10-01 11:44:09.222 [LOG] [GrowthManager] Cardinal matured
+2026-10-01 11:44:09.226 [LOG] [GrowthManager] Cardinal swapped to 18019-gamedata.base (setRace=true, listRewrite=true, head 5007515-ChildrenOfKenshi.mod -> 19-ChildrenOfKenshi_Growth.mod)
+2026-10-01 11:44:09.229 [LOG] [GrowthManager] Bandisno day=4.13 t=0.976 H=107.6 dur=3.0
+2026-10-01 11:44:11.148 [LOG] [GrowthManager] Bandisno day=4.15 t=0.981 H=107.7 dur=3.0
+2026-10-01 11:44:12.990 [LOG] [GrowthManager] Bandisno day=4.16 t=0.987 H=107.7 dur=3.0
+2026-10-01 11:44:14.727 [LOG] [GrowthManager] Bandisno day=4.18 t=0.992 H=107.7 dur=3.0
+2026-10-01 11:44:16.424 [LOG] [GrowthManager] Bandisno day=4.19 t=0.997 H=107.7 dur=3.0
+2026-10-01 11:44:18.192 [LOG] [GrowthManager] Bandisno day=4.21 t=1.000 H=107.7 dur=3.0
+2026-10-01 11:44:18.195 [LOG] [GrowthManager] Bandisno matured
+2026-10-01 11:44:18.198 [LOG] [GrowthManager] Bandisno swapped to 5276-chareditor.mod (setRace=true, listRewrite=true, head 5338-chareditor.mod -> 5338-chareditor.mod)
+2026-10-01 11:49:28.932 [LOG] LogViewer: Saved copy of the log to: E:\Games\KENSHI\Kenshi\mods\ChildrenOfKenshi_Growth\kenshilua_log.txt
+2026-10-01 11:51:52.712 [LOG] [GrowthManager] Plop day=3.00 t=0.760 H=94.7 dur=3.0
+2026-10-01 11:51:52.716 [LOG] [GrowthManager] Cardinal day=3.00 t=0.625 H=91.5 dur=3.0
+2026-10-01 11:51:52.719 [LOG] [GrowthManager] Bandisno day=3.00 t=0.599 H=99.6 dur=3.0
+2026-10-01 11:52:28.521 [LOG] [GrowthManager] stats of Plop (1535099-ChildrenOfKenshi.mod)
+2026-10-01 11:52:28.524 [LOG] [GrowthManager]   stats.strength = 5.2473192214966
+2026-10-01 11:52:28.528 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:52:28.531 [LOG] [GrowthManager]   stats.athletics = 1.5563992261887
+2026-10-01 11:52:28.534 [LOG] [GrowthManager]   stats.swimming = 2.0533301830292
+2026-10-01 11:52:28.537 [LOG] [GrowthManager]   stats.dexterity = 0.22685569524765
+2026-10-01 11:52:28.540 [LOG] [GrowthManager]   stats.perception = 3.2884604930878
+2026-10-01 11:52:28.543 [LOG] [GrowthManager]   stats.meleeAttack = 3.1591186523438
+2026-10-01 11:52:28.546 [LOG] [GrowthManager]   stats.katanas = 1.8116455078125
+2026-10-01 11:52:28.550 [LOG] [GrowthManager]   limb 1: _maxHealth=86.023422241211 flesh=95.199714660645
+2026-10-01 11:52:28.553 [LOG] [GrowthManager]   limb 2: _maxHealth=86.023422241211 flesh=95.199714660645
+2026-10-01 11:52:28.556 [LOG] [GrowthManager]   limb 3: _maxHealth=86.023422241211 flesh=95.199714660645
+2026-10-01 11:52:28.559 [LOG] [GrowthManager]   limb 4: _maxHealth=86.023422241211 flesh=95.199714660645
+2026-10-01 11:52:28.562 [LOG] [GrowthManager]   limb 5: _maxHealth=86.023422241211 flesh=95.199714660645
+2026-10-01 11:52:28.566 [LOG] [GrowthManager]   limb 6: _maxHealth=86.023422241211 flesh=95.199714660645
+2026-10-01 11:52:28.569 [LOG] [GrowthManager]   limb 7: _maxHealth=86.023422241211 flesh=95.199714660645
+2026-10-01 11:52:32.160 [LOG] [GrowthManager] stats of Cardinal (1535459-ChildrenOfKenshi.mod)
+2026-10-01 11:52:32.163 [LOG] [GrowthManager]   stats.strength = 5.0204939842224
+2026-10-01 11:52:32.167 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:52:32.170 [LOG] [GrowthManager]   stats.athletics = 5.6509246826172
+2026-10-01 11:52:32.173 [LOG] [GrowthManager]   stats.swimming = 1.1799116134644
+2026-10-01 11:52:32.177 [LOG] [GrowthManager]   stats.dexterity = 5.0957074165344
+2026-10-01 11:52:32.181 [LOG] [GrowthManager]   stats.perception = 4.4829769134521
+2026-10-01 11:52:32.184 [LOG] [GrowthManager]   stats.meleeAttack = 2.8679809570312
+2026-10-01 11:52:32.187 [LOG] [GrowthManager]   stats.katanas = 0.12908935546875
+2026-10-01 11:52:32.190 [LOG] [GrowthManager]   limb 1: _maxHealth=86.213653564453 flesh=92.489288330078
+2026-10-01 11:52:32.194 [LOG] [GrowthManager]   limb 2: _maxHealth=86.213653564453 flesh=92.489288330078
+2026-10-01 11:52:32.197 [LOG] [GrowthManager]   limb 3: _maxHealth=86.213653564453 flesh=92.489288330078
+2026-10-01 11:52:32.200 [LOG] [GrowthManager]   limb 4: _maxHealth=86.213653564453 flesh=92.489288330078
+2026-10-01 11:52:32.203 [LOG] [GrowthManager]   limb 5: _maxHealth=86.213653564453 flesh=92.489288330078
+2026-10-01 11:52:32.207 [LOG] [GrowthManager]   limb 6: _maxHealth=86.213653564453 flesh=92.489288330078
+2026-10-01 11:52:32.211 [LOG] [GrowthManager]   limb 7: _maxHealth=86.213653564453 flesh=92.489288330078
+2026-10-01 11:52:36.147 [LOG] [GrowthManager] stats of Bandisno (1535457-ChildrenOfKenshi.mod)
+2026-10-01 11:52:36.151 [LOG] [GrowthManager]   stats.strength = 5.2187261581421
+2026-10-01 11:52:36.154 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:52:36.158 [LOG] [GrowthManager]   stats.athletics = 3.026047706604
+2026-10-01 11:52:36.161 [LOG] [GrowthManager]   stats.swimming = 5.743200302124
+2026-10-01 11:52:36.165 [LOG] [GrowthManager]   stats.dexterity = 0.47448629140854
+2026-10-01 11:52:36.168 [LOG] [GrowthManager]   stats.perception = 3.3394205570221
+2026-10-01 11:52:36.171 [LOG] [GrowthManager]   stats.meleeAttack = 2.9635620117188
+2026-10-01 11:52:36.175 [LOG] [GrowthManager]   stats.katanas = 0.111328125
+2026-10-01 11:52:36.178 [LOG] [GrowthManager]   limb 1: _maxHealth=107.81336975098 flesh=114.9758682251
+2026-10-01 11:52:36.182 [LOG] [GrowthManager]   limb 2: _maxHealth=107.81336975098 flesh=114.9758682251
+2026-10-01 11:52:36.185 [LOG] [GrowthManager]   limb 3: _maxHealth=107.81336975098 flesh=114.9758682251
+2026-10-01 11:52:36.189 [LOG] [GrowthManager]   limb 4: _maxHealth=107.81336975098 flesh=114.9758682251
+2026-10-01 11:52:36.192 [LOG] [GrowthManager]   limb 5: _maxHealth=107.81336975098 flesh=114.9758682251
+2026-10-01 11:52:36.196 [LOG] [GrowthManager]   limb 6: _maxHealth=107.81336975098 flesh=114.9758682251
+2026-10-01 11:52:36.200 [LOG] [GrowthManager]   limb 7: _maxHealth=107.81336975098 flesh=114.9758682251
+2026-10-01 11:53:43.070 [LOG] [GrowthManager] Plop day=3.57 t=0.951 H=97.0 dur=3.0
+2026-10-01 11:53:44.471 [LOG] [GrowthManager] Plop day=3.58 t=0.953 H=97.0 dur=3.0
+2026-10-01 11:53:46.010 [LOG] [GrowthManager] Plop day=3.58 t=0.953 H=97.0 dur=3.0
+2026-10-01 11:53:57.924 [LOG] [GrowthManager] Plop day=3.58 t=0.953 H=97.0 dur=3.0
+2026-10-01 11:53:59.243 [LOG] [GrowthManager] Plop day=3.58 t=0.953 H=97.0 dur=3.0
+2026-10-01 11:54:00.592 [LOG] [GrowthManager] Plop day=3.58 t=0.954 H=97.0 dur=3.0
+2026-10-01 11:54:01.909 [LOG] [GrowthManager] Plop day=3.58 t=0.954 H=97.0 dur=3.0
+2026-10-01 11:54:03.228 [LOG] [GrowthManager] Plop day=3.58 t=0.954 H=97.0 dur=3.0
+2026-10-01 11:54:04.591 [LOG] [GrowthManager] Plop day=3.58 t=0.954 H=97.0 dur=3.0
+2026-10-01 11:54:05.915 [LOG] [GrowthManager] Plop day=3.58 t=0.954 H=97.0 dur=3.0
+2026-10-01 11:54:07.223 [LOG] [GrowthManager] Plop day=3.58 t=0.954 H=97.0 dur=3.0
+2026-10-01 11:54:08.521 [LOG] [GrowthManager] Plop day=3.58 t=0.955 H=97.0 dur=3.0
+2026-10-01 11:54:09.832 [LOG] [GrowthManager] Plop day=3.58 t=0.955 H=97.0 dur=3.0
+2026-10-01 11:54:11.150 [LOG] [GrowthManager] Plop day=3.58 t=0.955 H=97.0 dur=3.0
+2026-10-01 11:54:12.551 [LOG] [GrowthManager] Plop day=3.59 t=0.955 H=97.0 dur=3.0
+2026-10-01 11:54:13.851 [LOG] [GrowthManager] Plop day=3.59 t=0.955 H=97.0 dur=3.0
+2026-10-01 11:54:15.149 [LOG] [GrowthManager] Plop day=3.59 t=0.956 H=97.0 dur=3.0
+2026-10-01 11:54:16.436 [LOG] [GrowthManager] Plop day=3.59 t=0.956 H=97.0 dur=3.0
+2026-10-01 11:54:17.783 [LOG] [GrowthManager] Plop day=3.59 t=0.956 H=97.0 dur=3.0
+2026-10-01 11:54:19.084 [LOG] [GrowthManager] Plop day=3.59 t=0.956 H=97.0 dur=3.0
+2026-10-01 11:54:20.385 [LOG] [GrowthManager] Plop day=3.59 t=0.956 H=97.0 dur=3.0
+2026-10-01 11:54:21.707 [LOG] [GrowthManager] Plop day=3.59 t=0.956 H=97.0 dur=3.0
+2026-10-01 11:54:23.018 [LOG] [GrowthManager] Plop day=3.59 t=0.957 H=97.0 dur=3.0
+2026-10-01 11:54:24.305 [LOG] [GrowthManager] Plop day=3.59 t=0.957 H=97.0 dur=3.0
+2026-10-01 11:54:25.584 [LOG] [GrowthManager] Plop day=3.59 t=0.957 H=97.0 dur=3.0
+2026-10-01 11:54:26.874 [LOG] [GrowthManager] Plop day=3.59 t=0.957 H=97.0 dur=3.0
+2026-10-01 11:54:28.153 [LOG] [GrowthManager] Plop day=3.59 t=0.957 H=97.0 dur=3.0
+2026-10-01 11:54:29.426 [LOG] [GrowthManager] Plop day=3.59 t=0.957 H=97.0 dur=3.0
+2026-10-01 11:54:30.677 [LOG] [GrowthManager] Plop day=3.59 t=0.957 H=97.0 dur=3.0
+2026-10-01 11:54:31.957 [LOG] [GrowthManager] Plop day=3.59 t=0.958 H=97.0 dur=3.0
+2026-10-01 11:54:33.238 [LOG] [GrowthManager] Plop day=3.59 t=0.958 H=97.0 dur=3.0
+2026-10-01 11:54:34.498 [LOG] [GrowthManager] Plop day=3.59 t=0.958 H=97.0 dur=3.0
+2026-10-01 11:54:35.759 [LOG] [GrowthManager] Plop day=3.59 t=0.958 H=97.0 dur=3.0
+2026-10-01 11:54:37.234 [LOG] [GrowthManager] Plop day=3.60 t=0.961 H=97.0 dur=3.0
+2026-10-01 11:54:38.927 [LOG] [GrowthManager] Plop day=3.62 t=0.966 H=97.1 dur=3.0
+2026-10-01 11:54:40.577 [LOG] [GrowthManager] Plop day=3.63 t=0.971 H=97.1 dur=3.0
+2026-10-01 11:54:42.279 [LOG] [GrowthManager] Plop day=3.65 t=0.976 H=97.1 dur=3.0
+2026-10-01 11:54:44.004 [LOG] [GrowthManager] Plop day=3.66 t=0.981 H=97.1 dur=3.0
+2026-10-01 11:54:45.679 [LOG] [GrowthManager] Plop day=3.68 t=0.987 H=97.1 dur=3.0
+2026-10-01 11:54:47.322 [LOG] [GrowthManager] Plop day=3.69 t=0.992 H=97.1 dur=3.0
+2026-10-01 11:54:48.894 [LOG] [GrowthManager] Plop day=3.71 t=0.996 H=97.1 dur=3.0
+2026-10-01 11:54:50.137 [LOG] [GrowthManager] Plop day=3.71 t=0.996 H=97.1 dur=3.0
+2026-10-01 11:54:51.349 [LOG] [GrowthManager] Plop day=3.71 t=0.996 H=97.1 dur=3.0
+2026-10-01 11:54:52.575 [LOG] [GrowthManager] Plop day=3.71 t=0.997 H=97.1 dur=3.0
+2026-10-01 11:54:53.792 [LOG] [GrowthManager] Plop day=3.71 t=0.997 H=97.1 dur=3.0
+2026-10-01 11:54:55.032 [LOG] [GrowthManager] Plop day=3.71 t=0.997 H=97.1 dur=3.0
+2026-10-01 11:54:56.238 [LOG] [GrowthManager] Plop day=3.71 t=0.997 H=97.1 dur=3.0
+2026-10-01 11:54:57.454 [LOG] [GrowthManager] Plop day=3.71 t=0.997 H=97.1 dur=3.0
+2026-10-01 11:54:58.685 [LOG] [GrowthManager] Plop day=3.71 t=0.997 H=97.1 dur=3.0
+2026-10-01 11:54:59.917 [LOG] [GrowthManager] Plop day=3.71 t=0.997 H=97.1 dur=3.0
+2026-10-01 11:55:01.158 [LOG] [GrowthManager] Plop day=3.71 t=0.998 H=97.1 dur=3.0
+2026-10-01 11:55:02.402 [LOG] [GrowthManager] Plop day=3.71 t=0.998 H=97.1 dur=3.0
+2026-10-01 11:55:03.663 [LOG] [GrowthManager] Plop day=3.71 t=0.998 H=97.1 dur=3.0
+2026-10-01 11:55:04.933 [LOG] [GrowthManager] Plop day=3.71 t=0.998 H=97.1 dur=3.0
+2026-10-01 11:55:06.198 [LOG] [GrowthManager] Plop day=3.71 t=0.998 H=97.1 dur=3.0
+2026-10-01 11:55:07.451 [LOG] [GrowthManager] Plop day=3.72 t=0.998 H=97.1 dur=3.0
+2026-10-01 11:55:08.746 [LOG] [GrowthManager] Plop day=3.72 t=0.999 H=97.1 dur=3.0
+2026-10-01 11:55:09.994 [LOG] [GrowthManager] Plop day=3.72 t=0.999 H=97.1 dur=3.0
+2026-10-01 11:55:11.259 [LOG] [GrowthManager] Plop day=3.72 t=0.999 H=97.1 dur=3.0
+2026-10-01 11:55:12.541 [LOG] [GrowthManager] Plop day=3.72 t=0.999 H=97.1 dur=3.0
+2026-10-01 11:55:13.866 [LOG] [GrowthManager] Plop day=3.72 t=0.999 H=97.1 dur=3.0
+2026-10-01 11:55:15.207 [LOG] [GrowthManager] Plop day=3.72 t=0.999 H=97.1 dur=3.0
+2026-10-01 11:55:16.473 [LOG] [GrowthManager] Plop day=3.72 t=1.000 H=97.1 dur=3.0
+2026-10-01 11:55:17.778 [LOG] [GrowthManager] Plop day=3.72 t=1.000 H=97.1 dur=3.0
+2026-10-01 11:55:19.049 [LOG] [GrowthManager] Plop day=3.72 t=1.000 H=97.1 dur=3.0
+2026-10-01 11:55:20.309 [LOG] [GrowthManager] Plop day=3.72 t=1.000 H=97.1 dur=3.0
+2026-10-01 11:55:20.313 [LOG] [GrowthManager] Plop matured
+2026-10-01 11:55:20.318 [LOG] [GrowthManager] Plop swapped to 17-gamedata.quack (setRace=true, listRewrite=true, head 5007788-ChildrenOfKenshi.mod -> 26-ChildrenOfKenshi_Growth.mod)
+2026-10-01 11:55:36.901 [LOG] [GrowthManager] stats of Plop (17-gamedata.quack)
+2026-10-01 11:55:36.905 [LOG] [GrowthManager]   stats.strength = 5.3493194580078
+2026-10-01 11:55:36.909 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:55:36.912 [LOG] [GrowthManager]   stats.athletics = 1.5866532325745
+2026-10-01 11:55:36.916 [LOG] [GrowthManager]   stats.swimming = 2.093243598938
+2026-10-01 11:55:36.920 [LOG] [GrowthManager]   stats.dexterity = 0.22179752588272
+2026-10-01 11:55:36.924 [LOG] [GrowthManager]   stats.perception = 3.2151386737823
+2026-10-01 11:55:36.928 [LOG] [GrowthManager]   stats.meleeAttack = 3.1591186523438
+2026-10-01 11:55:36.932 [LOG] [GrowthManager]   stats.katanas = 1.8116455078125
+2026-10-01 11:55:36.936 [LOG] [GrowthManager]   limb 1: _maxHealth=100 flesh=100
+2026-10-01 11:55:36.940 [LOG] [GrowthManager]   limb 2: _maxHealth=100 flesh=100
+2026-10-01 11:55:36.945 [LOG] [GrowthManager]   limb 3: _maxHealth=100 flesh=100
+2026-10-01 11:55:36.950 [LOG] [GrowthManager]   limb 4: _maxHealth=100 flesh=100
+2026-10-01 11:55:36.954 [LOG] [GrowthManager]   limb 5: _maxHealth=100 flesh=100
+2026-10-01 11:55:36.958 [LOG] [GrowthManager]   limb 6: _maxHealth=100 flesh=100
+2026-10-01 11:55:36.962 [LOG] [GrowthManager]   limb 7: _maxHealth=100 flesh=100
+2026-10-01 11:57:45.049 [LOG] [GrowthManager] Cardinal day=3.99 t=0.954 H=97.0 dur=3.0
+2026-10-01 11:57:46.980 [LOG] [GrowthManager] Cardinal day=4.00 t=0.959 H=97.0 dur=3.0
+2026-10-01 11:57:46.984 [LOG] [GrowthManager] Bandisno day=4.00 t=0.934 H=107.4 dur=3.0
+2026-10-01 11:57:48.506 [LOG] [GrowthManager] Cardinal day=4.01 t=0.960 H=97.0 dur=3.0
+2026-10-01 11:58:11.216 [LOG] [GrowthManager] stats of Cardinal (1535459-ChildrenOfKenshi.mod)
+2026-10-01 11:58:11.220 [LOG] [GrowthManager]   stats.strength = 5.1637454032898
+2026-10-01 11:58:11.224 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:58:11.228 [LOG] [GrowthManager]   stats.athletics = 5.8121647834778
+2026-10-01 11:58:11.233 [LOG] [GrowthManager]   stats.swimming = 1.2135784626007
+2026-10-01 11:58:11.237 [LOG] [GrowthManager]   stats.dexterity = 4.9329900741577
+2026-10-01 11:58:11.241 [LOG] [GrowthManager]   stats.perception = 4.339825630188
+2026-10-01 11:58:11.245 [LOG] [GrowthManager]   stats.meleeAttack = 2.8679809570312
+2026-10-01 11:58:11.249 [LOG] [GrowthManager]   stats.katanas = 0.12908935546875
+2026-10-01 11:58:11.254 [LOG] [GrowthManager]   limb 1: _maxHealth=92.456237792969 flesh=99.186279296875
+2026-10-01 11:58:11.258 [LOG] [GrowthManager]   limb 2: _maxHealth=92.456237792969 flesh=99.186279296875
+2026-10-01 11:58:11.262 [LOG] [GrowthManager]   limb 3: _maxHealth=92.456237792969 flesh=99.186279296875
+2026-10-01 11:58:11.267 [LOG] [GrowthManager]   limb 4: _maxHealth=92.456237792969 flesh=99.186279296875
+2026-10-01 11:58:11.270 [LOG] [GrowthManager]   limb 5: _maxHealth=92.456237792969 flesh=99.186279296875
+2026-10-01 11:58:11.274 [LOG] [GrowthManager]   limb 6: _maxHealth=92.456237792969 flesh=99.186279296875
+2026-10-01 11:58:11.278 [LOG] [GrowthManager]   limb 7: _maxHealth=92.456237792969 flesh=99.186279296875
+2026-10-01 11:58:16.670 [LOG] [GrowthManager] stats of Bandisno (1535457-ChildrenOfKenshi.mod)
+2026-10-01 11:58:16.674 [LOG] [GrowthManager]   stats.strength = 5.3679571151733
+2026-10-01 11:58:16.678 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:58:16.683 [LOG] [GrowthManager]   stats.athletics = 3.1125783920288
+2026-10-01 11:58:16.687 [LOG] [GrowthManager]   stats.swimming = 5.9074287414551
+2026-10-01 11:58:16.691 [LOG] [GrowthManager]   stats.dexterity = 0.45937156677246
+2026-10-01 11:58:16.695 [LOG] [GrowthManager]   stats.perception = 3.2330434322357
+2026-10-01 11:58:16.699 [LOG] [GrowthManager]   stats.meleeAttack = 2.9635620117188
+2026-10-01 11:58:16.704 [LOG] [GrowthManager]   stats.katanas = 0.111328125
+2026-10-01 11:58:16.708 [LOG] [GrowthManager]   limb 1: _maxHealth=115.66313171387 flesh=123.34712219238
+2026-10-01 11:58:16.712 [LOG] [GrowthManager]   limb 2: _maxHealth=115.66313171387 flesh=123.34712219238
+2026-10-01 11:58:16.717 [LOG] [GrowthManager]   limb 3: _maxHealth=115.66313171387 flesh=123.34712219238
+2026-10-01 11:58:16.721 [LOG] [GrowthManager]   limb 4: _maxHealth=115.66313171387 flesh=123.34712219238
+2026-10-01 11:58:16.725 [LOG] [GrowthManager]   limb 5: _maxHealth=115.66313171387 flesh=123.34712219238
+2026-10-01 11:58:16.728 [LOG] [GrowthManager]   limb 6: _maxHealth=115.66313171387 flesh=123.34712219238
+2026-10-01 11:58:16.733 [LOG] [GrowthManager]   limb 7: _maxHealth=115.66313171387 flesh=123.34712219238
+2026-10-01 11:58:19.729 [LOG] [GrowthManager] Cardinal day=4.01 t=0.960 H=97.0 dur=3.0
+2026-10-01 11:58:21.295 [LOG] [GrowthManager] Cardinal day=4.01 t=0.960 H=97.0 dur=3.0
+2026-10-01 11:58:22.805 [LOG] [GrowthManager] Cardinal day=4.01 t=0.960 H=97.0 dur=3.0
+2026-10-01 11:58:24.577 [LOG] [GrowthManager] Cardinal day=4.02 t=0.964 H=97.0 dur=3.0
+2026-10-01 11:58:26.558 [LOG] [GrowthManager] Cardinal day=4.04 t=0.970 H=97.0 dur=3.0
+2026-10-01 11:58:28.615 [LOG] [GrowthManager] Cardinal day=4.05 t=0.976 H=97.0 dur=3.0
+2026-10-01 11:58:28.620 [LOG] [GrowthManager] Bandisno day=4.05 t=0.950 H=107.5 dur=3.0
+2026-10-01 11:58:30.754 [LOG] [GrowthManager] Cardinal day=4.07 t=0.982 H=97.1 dur=3.0
+2026-10-01 11:58:30.758 [LOG] [GrowthManager] Bandisno day=4.07 t=0.956 H=107.6 dur=3.0
+2026-10-01 11:58:32.813 [LOG] [GrowthManager] Cardinal day=4.09 t=0.988 H=97.1 dur=3.0
+2026-10-01 11:58:32.817 [LOG] [GrowthManager] Bandisno day=4.09 t=0.962 H=107.6 dur=3.0
+2026-10-01 11:58:34.448 [LOG] [GrowthManager] Cardinal day=4.09 t=0.989 H=97.1 dur=3.0
+2026-10-01 11:58:34.453 [LOG] [GrowthManager] Bandisno day=4.09 t=0.964 H=107.6 dur=3.0
+2026-10-01 11:58:36.475 [LOG] [GrowthManager] Cardinal day=4.11 t=0.994 H=97.1 dur=3.0
+2026-10-01 11:58:36.481 [LOG] [GrowthManager] Bandisno day=4.11 t=0.969 H=107.6 dur=3.0
+2026-10-01 11:58:38.085 [LOG] [GrowthManager] Cardinal day=4.11 t=0.994 H=97.1 dur=3.0
+2026-10-01 11:58:38.089 [LOG] [GrowthManager] Bandisno day=4.11 t=0.969 H=107.6 dur=3.0
+2026-10-01 11:58:39.724 [LOG] [GrowthManager] Cardinal day=4.11 t=0.995 H=97.1 dur=3.0
+2026-10-01 11:58:39.728 [LOG] [GrowthManager] Bandisno day=4.11 t=0.970 H=107.6 dur=3.0
+2026-10-01 11:58:41.675 [LOG] [GrowthManager] Cardinal day=4.12 t=0.999 H=97.1 dur=3.0
+2026-10-01 11:58:41.679 [LOG] [GrowthManager] Bandisno day=4.12 t=0.973 H=107.6 dur=3.0
+2026-10-01 11:58:47.703 [LOG] [GrowthManager] Cardinal day=4.13 t=1.000 H=97.1 dur=3.0
+2026-10-01 11:58:47.708 [LOG] [GrowthManager] Cardinal matured
+2026-10-01 11:58:47.714 [LOG] [GrowthManager] Cardinal swapped to 18019-gamedata.base (setRace=true, listRewrite=true, head 5007515-ChildrenOfKenshi.mod -> 19-ChildrenOfKenshi_Growth.mod)
+2026-10-01 11:58:47.719 [LOG] [GrowthManager] Bandisno day=4.13 t=0.976 H=107.6 dur=3.0
+2026-10-01 11:59:05.097 [LOG] [GrowthManager] Bandisno day=4.13 t=0.976 H=107.7 dur=3.0
+2026-10-01 11:59:06.666 [LOG] [GrowthManager] Bandisno day=4.13 t=0.977 H=107.7 dur=3.0
+2026-10-01 11:59:08.595 [LOG] [GrowthManager] Bandisno day=4.14 t=0.980 H=107.7 dur=3.0
+2026-10-01 11:59:10.805 [LOG] [GrowthManager] Bandisno day=4.16 t=0.986 H=107.7 dur=3.0
+2026-10-01 11:59:12.841 [LOG] [GrowthManager] Bandisno day=4.18 t=0.992 H=107.7 dur=3.0
+2026-10-01 11:59:14.967 [LOG] [GrowthManager] Bandisno day=4.20 t=0.998 H=107.7 dur=3.0
+2026-10-01 11:59:16.964 [LOG] [GrowthManager] Bandisno day=4.21 t=1.000 H=107.7 dur=3.0
+2026-10-01 11:59:16.969 [LOG] [GrowthManager] Bandisno matured
+2026-10-01 11:59:16.973 [LOG] [GrowthManager] Bandisno swapped to 5276-chareditor.mod (setRace=true, listRewrite=true, head 5338-chareditor.mod -> 5338-chareditor.mod)
+2026-10-01 11:59:23.396 [LOG] [GrowthManager] stats of Cardinal (18019-gamedata.base)
+2026-10-01 11:59:23.401 [LOG] [GrowthManager]   stats.strength = 5.1803097724915
+2026-10-01 11:59:23.405 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:59:23.410 [LOG] [GrowthManager]   stats.athletics = 5.8308086395264
+2026-10-01 11:59:23.414 [LOG] [GrowthManager]   stats.swimming = 1.2174715995789
+2026-10-01 11:59:23.419 [LOG] [GrowthManager]   stats.dexterity = 4.9141721725464
+2026-10-01 11:59:23.423 [LOG] [GrowthManager]   stats.perception = 4.3232703208923
+2026-10-01 11:59:23.427 [LOG] [GrowthManager]   stats.meleeAttack = 2.8679809570312
+2026-10-01 11:59:23.432 [LOG] [GrowthManager]   stats.katanas = 0.12908935546875
+2026-10-01 11:59:23.436 [LOG] [GrowthManager]   limb 1: _maxHealth=100 flesh=100
+2026-10-01 11:59:23.441 [LOG] [GrowthManager]   limb 2: _maxHealth=100 flesh=100
+2026-10-01 11:59:23.446 [LOG] [GrowthManager]   limb 3: _maxHealth=100 flesh=100
+2026-10-01 11:59:23.450 [LOG] [GrowthManager]   limb 4: _maxHealth=100 flesh=100
+2026-10-01 11:59:23.455 [LOG] [GrowthManager]   limb 5: _maxHealth=100 flesh=100
+2026-10-01 11:59:23.459 [LOG] [GrowthManager]   limb 6: _maxHealth=100 flesh=100
+2026-10-01 11:59:23.463 [LOG] [GrowthManager]   limb 7: _maxHealth=100 flesh=100
+2026-10-01 11:59:27.025 [LOG] [GrowthManager] stats of Bandisno (5276-chareditor.mod)
+2026-10-01 11:59:27.029 [LOG] [GrowthManager]   stats.strength = 5.3967142105103
+2026-10-01 11:59:27.034 [LOG] [GrowthManager]   stats.toughness = function: 0x73c25780
+2026-10-01 11:59:27.039 [LOG] [GrowthManager]   stats.athletics = 3.1292533874512
+2026-10-01 11:59:27.044 [LOG] [GrowthManager]   stats.swimming = 5.9390754699707
+2026-10-01 11:59:27.049 [LOG] [GrowthManager]   stats.dexterity = 0.45645862817764
+2026-10-01 11:59:27.053 [LOG] [GrowthManager]   stats.perception = 3.2125425338745
+2026-10-01 11:59:27.058 [LOG] [GrowthManager]   stats.meleeAttack = 2.9635620117188
+2026-10-01 11:59:27.062 [LOG] [GrowthManager]   stats.katanas = 0.111328125
+2026-10-01 11:59:27.067 [LOG] [GrowthManager]   limb 1: _maxHealth=125 flesh=125
+2026-10-01 11:59:27.071 [LOG] [GrowthManager]   limb 2: _maxHealth=125 flesh=125
+2026-10-01 11:59:27.076 [LOG] [GrowthManager]   limb 3: _maxHealth=125 flesh=125
+2026-10-01 11:59:27.080 [LOG] [GrowthManager]   limb 4: _maxHealth=125 flesh=125
+2026-10-01 11:59:27.085 [LOG] [GrowthManager]   limb 5: _maxHealth=125 flesh=125
+2026-10-01 11:59:27.090 [LOG] [GrowthManager]   limb 6: _maxHealth=125 flesh=125
+2026-10-01 11:59:27.095 [LOG] [GrowthManager]   limb 7: _maxHealth=125 flesh=125
