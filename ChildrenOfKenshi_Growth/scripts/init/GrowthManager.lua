@@ -197,7 +197,9 @@ local FINAL_DAY_CHECK_EVERY_DAYS = 0.25   -- during the last in-game day: every 
 
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- CONFIG STARTS HERE
+-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 local growthConfig = {}
@@ -230,7 +232,9 @@ local DefaultStatEnd = {
 --                (build = frame/shoulders/chest/arms, size = height/legs length,
 --                lower = legs bulk/waist/hips).
 growthConfig["1535099-ChildrenOfKenshi.mod"] = {   -- Greenlander Child
+-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   growthDays = 35, -- in-game days (set to 3 for quick testing) Default 35 days
+-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   adultRaceName = "Greenlander",
   adultRaceID   = "17-gamedata.quack",
   randomRange = 0.05,   -- default for this race's sliders (+/- fraction of each target)
@@ -297,7 +301,9 @@ growthConfig["1535099-ChildrenOfKenshi.mod"] = {   -- Greenlander Child
 }
 
 growthConfig["1535459-ChildrenOfKenshi.mod"] = {   -- Scorchlander Child
+-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   growthDays = 35, -- in-game days (set to 3 for quick testing) Default 35 days
+-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   adultRaceName = "Scorchlander",
   adultRaceID   = "18019-gamedata.base",
   randomRange = 0.04,   -- default for this race's sliders (+/- fraction of each target)
@@ -343,18 +349,20 @@ growthConfig["1535459-ChildrenOfKenshi.mod"] = {   -- Scorchlander Child
   -- Table for Head Swaps after race successfully swapped
   headMap = {
     -- Female
-    ["5007515-ChildrenOfKenshi.mod"] = "19-ChildrenOfKenshi_Growth.mod",
-    ["5007779-ChildrenOfKenshi.mod"] = "20-ChildrenOfKenshi_Growth.mod",
-    ["5007780-ChildrenOfKenshi.mod"] = "23-ChildrenOfKenshi_Growth.mod",
+    ["5009760-ChildrenOfKenshi.mod"] = "33-ChildrenOfKenshi_Growth.mod",
+    ["5009761-ChildrenOfKenshi.mod"] = "34-ChildrenOfKenshi_Growth.mod",
+    ["5009762-ChildrenOfKenshi.mod"] = "35-ChildrenOfKenshi_Growth.mod",
 	-- Male
-    ["5007516-ChildrenOfKenshi.mod"] = "27-ChildrenOfKenshi_Growth.mod",
-    ["5007784-ChildrenOfKenshi.mod"] = "28-ChildrenOfKenshi_Growth.mod",
-    ["5007783-ChildrenOfKenshi.mod"] = "31-ChildrenOfKenshi_Growth.mod",
+    ["5009763-ChildrenOfKenshi.mod"] = "36-ChildrenOfKenshi_Growth.mod",
+    ["5009764-ChildrenOfKenshi.mod"] = "37-ChildrenOfKenshi_Growth.mod",
+    ["5009765-ChildrenOfKenshi.mod"] = "38-ChildrenOfKenshi_Growth.mod",
   },
 }
 
 growthConfig["1535457-ChildrenOfKenshi.mod"] = {   -- Shek Child
-  growthDays = 40, -- in-game days (set to 3 for quick testing) Default 40 days
+-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  growthDays = 40, -- in-game days (set to 3 for quick testing) Default 40 days, Shek take longer to become adult
+-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   adultRaceName = "Shek",
   adultRaceID   = "5276-chareditor.mod",
   randomRange = 0.06,   -- default for this race's sliders (+/- fraction of each target)
@@ -423,7 +431,9 @@ growthConfig.npcOverrides = {
 }
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- CONFIG ENDS HERE
+-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
