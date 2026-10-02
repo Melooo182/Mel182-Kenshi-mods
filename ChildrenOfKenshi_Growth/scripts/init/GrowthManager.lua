@@ -159,15 +159,16 @@
 --   configured slider. GrowthManager.DumpFdata("filter") lists a selected
 --   character's real keys and values.
 --
--- * Not applied yet: the maturity dialogue.
+-- * LOGGING: normal output is limited to tagging, maturity, swap and warning lines.
+--   The per-pass progress line is behind DEBUG (GrowthManager.SetDebug(true)).
+--   The script prints its version when it loads, which helps bug reports.
+--
+-- * Deliberately NOT implemented: a maturity dialogue. The swap keeps the appearance and
+--   plastic surgeons exist, so growth is silent on purpose.
 
--- This method of calling the config will cause conflict with Steam workshop's way of handling mods folders
---local growthConfig = dofile("mods/ChildrenOfKenshi_Growth/scripts/config/growth_config.lua")
--- ---------------------------------------------------------------
--- ---------------------------------------------------------------
--- Now the content of growth_config.lua had been moved into the same script but at top of the file.
--- ---------------------------------------------------------------
--- ---------------------------------------------------------------
+-- The config used to be loaded with dofile("mods/ChildrenOfKenshi_Growth/scripts/config/growth_config.lua").
+-- That path breaks on Steam Workshop / GOG installs because the mod folder name changes, so the
+-- config now lives in this same script, in the CONFIG block below (search for "CONFIG STARTS HERE").
 
 -- Per race entry in growth_config.lua (adultRaceName / adultRaceID already exist):
 --   swapOnMaturity = true,   -- optional, default true when adultRaceName is set.
@@ -182,6 +183,17 @@
 --   --   randomRange = 0 on a slider turns randomization off for it.
 
 local GrowthManager = {}
+GrowthManager.Version = "1.0-playtest"
+
+-- Set to true (or run GrowthManager.SetDebug(true) in the console) to log one progress
+-- line per growing character per pass. Off by default: it is a lot of lines.
+local DEBUG = false
+
+-- How often a growing character gets a full update, in IN-GAME days. This follows the game
+-- clock, not frames or real time, so it behaves the same at any game speed or frame rate.
+-- (fdata.GrowthLastCheckedDay holds the game time, in days, of the last full update.)
+local CHECK_EVERY_DAYS = 1.0              -- normal: once per in-game day
+local FINAL_DAY_CHECK_EVERY_DAYS = 0.25   -- during the last in-game day: every 6 in-game hours
 
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -218,7 +230,7 @@ local DefaultStatEnd = {
 --                (build = frame/shoulders/chest/arms, size = height/legs length,
 --                lower = legs bulk/waist/hips).
 growthConfig["1535099-ChildrenOfKenshi.mod"] = {   -- Greenlander Child
-  growthDays = 3, -- Default is 350
+  growthDays = 35, -- in-game days (set to 3 for quick testing) Default 35 days
   adultRaceName = "Greenlander",
   adultRaceID   = "17-gamedata.quack",
   randomRange = 0.05,   -- default for this race's sliders (+/- fraction of each target)
@@ -285,7 +297,7 @@ growthConfig["1535099-ChildrenOfKenshi.mod"] = {   -- Greenlander Child
 }
 
 growthConfig["1535459-ChildrenOfKenshi.mod"] = {   -- Scorchlander Child
-  growthDays = 3, -- Default is 350
+  growthDays = 35, -- in-game days (set to 3 for quick testing) Default 35 days
   adultRaceName = "Scorchlander",
   adultRaceID   = "18019-gamedata.base",
   randomRange = 0.04,   -- default for this race's sliders (+/- fraction of each target)
@@ -342,7 +354,7 @@ growthConfig["1535459-ChildrenOfKenshi.mod"] = {   -- Scorchlander Child
 }
 
 growthConfig["1535457-ChildrenOfKenshi.mod"] = {   -- Shek Child
-  growthDays = 3, -- Default is 400
+  growthDays = 40, -- in-game days (set to 3 for quick testing) Default 40 days
   adultRaceName = "Shek",
   adultRaceID   = "5276-chareditor.mod",
   randomRange = 0.06,   -- default for this race's sliders (+/- fraction of each target)
@@ -409,13 +421,12 @@ growthConfig.npcOverrides = {
   -- Never grows (marked mature on first sight):
   --["55555-adult.mod"] = { growthTimeMultiplier = "full" },
 }
-
---return growthConfig -- commented out since it's no longer needed since the config is now hosted in the same script.
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- CONFIG ENDS HERE
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 local function GetCurrentTime()
   return getGameWorld():getTimeStamp_inGameHours():getTotalDays()
@@ -971,13 +982,17 @@ local function GrowCharacter(Character)
   local effectiveDays = GetEffectiveGrowthDays(Character, cfg)
 
   local CurrentTime = GetCurrentTime()
-  local DayFloor = math.floor(CurrentTime)
-  local NearEnd = (CurrentTime - BirthDay) >= (effectiveDays * 0.98) -- Changed from 0.95 since it gave too many ticks on last day
-  if not NearEnd and fdata.GrowthLastCheckedDay == DayFloor then
+
+  -- Time-based gate. In between full updates only the cheap limb repair runs. Once the growth
+  -- time is up (remaining <= 0) the gate is bypassed, so maturity is never delayed.
+  local remaining = effectiveDays - (CurrentTime - BirthDay)
+  local interval = (remaining <= 1.0) and FINAL_DAY_CHECK_EVERY_DAYS or CHECK_EVERY_DAYS
+  local lastCheck = fdata.GrowthLastCheckedDay
+  if remaining > 0 and lastCheck and (CurrentTime - lastCheck) < interval then
     ReassertLimbs(Character, fdata)
     return true
   end
-  fdata.GrowthLastCheckedDay = DayFloor
+  fdata.GrowthLastCheckedDay = CurrentTime
 
   local Elapsed = CurrentTime - BirthDay
   local Lerp = Elapsed / effectiveDays
@@ -995,9 +1010,11 @@ local function GrowCharacter(Character)
 
   ApplyStatScale(Character, cfg, ApplyCurve(cfg.statCurve or "linear", Lerp))
 
-  print(string.format("[GrowthManager] %s day=%.2f t=%.3f H=%.1f dur=%.1f",
-    tostring(Character:getName()), CurrentTime, Lerp,
-    fdata.Height or -1, effectiveDays))
+  if DEBUG then
+    print(string.format("[GrowthManager] %s day=%.2f t=%.3f H=%.1f dur=%.1f",
+      tostring(Character:getName()), CurrentTime, Lerp,
+      fdata.Height or -1, effectiveDays))
+  end
 
   AppDataBase.updatedAppearanceData = true
 
@@ -1121,6 +1138,12 @@ function GrowthManager.UntagSelected()
   AppDataBase.updatedAppearanceData = true
 
   print("[GrowthManager] untagged " .. tostring(Character:getName()))
+end
+
+-- Console helper: turn the per-pass progress log on or off, e.g. GrowthManager.SetDebug(true)
+function GrowthManager.SetDebug(on)
+  DEBUG = on and true or false
+  print("[GrowthManager] debug logging " .. (DEBUG and "ON" or "OFF"))
 end
 
 -- Console helper: list the selected character's fdata keys and values, optionally
@@ -1250,11 +1273,15 @@ end
 registerHandler("onCharacterSelect", OnCharacterSelect)
 
 -- ---------------------------------------------------------------
+-- Base cadence: the loop below runs once every PASS_EVERY_N_UPDATES onCharsUpdate calls (about
+-- every 1.3 s of real time in the test logs). This only decides how often we LOOK; how often a
+-- growing character is actually updated is set by CHECK_EVERY_DAYS above.
+local PASS_EVERY_N_UPDATES = 40
 local counter = 0
 
 local function UpdateCharacters()
   counter = counter + 1
-  if counter < 40 then return end
+  if counter < PASS_EVERY_N_UPDATES then return end
   counter = 0
 
   local playerObj = getPlayerInterface() or player
@@ -1281,6 +1308,8 @@ local function UpdateCharacters()
 end
 
 registerHandler("onCharsUpdate", UpdateCharacters)
+
+print("[GrowthManager] loaded, version " .. GrowthManager.Version)
 
 _G.GrowthManager = GrowthManager
 return GrowthManager
