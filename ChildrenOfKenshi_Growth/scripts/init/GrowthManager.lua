@@ -233,7 +233,7 @@ local DefaultStatEnd = {
 --                lower = legs bulk/waist/hips).
 growthConfig["1535099-ChildrenOfKenshi.mod"] = {   -- Greenlander Child
 -- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  growthDays = 35, -- in-game days (set to 3 for quick testing) Default 35 days
+  growthDays = 70, -- in-game days (set to 3 for quick testing) Default 70 days
 -- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   adultRaceName = "Greenlander",
   adultRaceID   = "17-gamedata.quack",
@@ -302,7 +302,7 @@ growthConfig["1535099-ChildrenOfKenshi.mod"] = {   -- Greenlander Child
 
 growthConfig["1535459-ChildrenOfKenshi.mod"] = {   -- Scorchlander Child
 -- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  growthDays = 35, -- in-game days (set to 3 for quick testing) Default 35 days
+  growthDays = 70, -- in-game days (set to 3 for quick testing) Default 70 days
 -- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   adultRaceName = "Scorchlander",
   adultRaceID   = "18019-gamedata.base",
@@ -361,7 +361,7 @@ growthConfig["1535459-ChildrenOfKenshi.mod"] = {   -- Scorchlander Child
 
 growthConfig["1535457-ChildrenOfKenshi.mod"] = {   -- Shek Child
 -- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  growthDays = 40, -- in-game days (set to 3 for quick testing) Default 40 days, Shek take longer to become adult
+  growthDays = 80, -- in-game days (set to 3 for quick testing) Default 80 days, Shek take longer to become adult
 -- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   adultRaceName = "Shek",
   adultRaceID   = "5276-chareditor.mod",
@@ -420,11 +420,11 @@ growthConfig["1535457-ChildrenOfKenshi.mod"] = {   -- Shek Child
 growthConfig.npcOverrides = {
   -- Normal pace (default, no override needed):
   -- ["12345-somebody.mod"] = { growthTimeMultiplier = 1.0 },
-  -- Grows twice as fast (200 days instead of 400):
+  -- Grows twice as fast (35 days instead of 70):
   --["22222-quick.mod"] = { growthTimeMultiplier = 0.5 },
-  -- 20% slower (480 days):
+  -- 20% slower (84 days instead of 70):
  -- ["33333-slow.mod"] = { growthTimeMultiplier = 1.2 },
-  -- Very slow (800 days):
+  -- Very slow (140 days instead of 70):
   --["44444-ancient.mod"] = { growthTimeMultiplier = 2.0 },
   -- Never grows (marked mature on first sight):
   --["55555-adult.mod"] = { growthTimeMultiplier = "full" },
